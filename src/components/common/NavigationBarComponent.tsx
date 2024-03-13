@@ -22,7 +22,7 @@ const NavigationBarComponent = () => {
     );
 
     return (
-        <div className='flex justify-between items-center h-[64px] mb-[96px] w-full'>
+        <div className='flex justify-between items-center h-[64px] mb-[96px] px-[120px] w-full'>
             <img src='/fabricaLogo.png' alt='Website Logo' className='block' />
             <div className='flex gap-2 h-[40px]'>
                 <div className='flex gap-4 mr-20'>

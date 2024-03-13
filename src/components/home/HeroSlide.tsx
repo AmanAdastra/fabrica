@@ -5,7 +5,7 @@ export const interFont = Inter({ subsets: ["latin"] })
 
 const HeroSlide = () => {
     return (
-        <div className={'flex  h-[554px] w-full'}>
+        <div className={'flex  h-[554px] w-full px-[120px] relative z-10'}>
             <div className='h-full w-1/2 relative  '>
                 <div className='mt-[37px] h-[480px] '>
                     <p className='text-[56px] font-bold'>
