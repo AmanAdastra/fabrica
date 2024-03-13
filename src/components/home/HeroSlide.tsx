@@ -1,12 +1,11 @@
 import React from 'react'
 import { Jim_Nightshade, Inter } from 'next/font/google'
 
-const interFont = Inter({ subsets: ["latin"] })
-const nightshade = Jim_Nightshade({ weight: '400', subsets: ["latin"] })
+export const interFont = Inter({ subsets: ["latin"] })
 
 const HeroSlide = () => {
     return (
-        <div className={'flex  h-[554px] w-full' + nightshade.className}>
+        <div className={'flex  h-[554px] w-full'}>
             <div className='h-full w-1/2 relative  '>
                 <div className='mt-[37px] h-[480px] '>
                     <p className='text-[56px] font-bold'>
