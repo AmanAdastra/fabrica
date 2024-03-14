@@ -1,16 +1,36 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react';
 
 const FilterBlock = () => {
-    return (
-        <ul className='mt-[80px] flex gap-4  h-[40px] w-full'>
-            <li className='flex items-center rounded-full bg-black h-full'><p className='text-white px-4'>All Furniture</p></li>
-            <li className='flex items-center rounded-full bg-gray-300 h-full'><p className=' px-4'>Bedroom</p></li>
-            <li className='flex items-center rounded-full bg-gray-300 h-full'><p className=' px-4'>Living Room</p></li>
-            <li className='flex items-center rounded-full bg-gray-300 h-full'><p className=' px-4'>Home Office</p></li>
-            <li className='flex items-center rounded-full bg-gray-300 h-full'><p className=' px-4'>Dining Table</p></li>
-            <li className='flex items-center rounded-full bg-gray-300 h-full'><p className=' px-4'>More</p></li>
-        </ul>
-    )
-}
+  const [selectedFilter, setSelectedFilter] = useState('All Furniture');
 
-export default FilterBlock
+  const handleClick = (filter:string) => setSelectedFilter(filter);
+
+  const filterOptions = [
+    'All Furniture',
+    'Bedroom',
+    'Living Room',
+    'Home Office',
+    'Dining Table',
+    'More',
+  ];
+
+  return (
+    <div className="mt-[80px] flex items-center gap-2 overflow-scroll whitespace-nowrap w-full">
+      {filterOptions.map((filter) => (
+        <button
+          key={filter}
+          className={`
+            py-2 px-4 rounded-full
+            ${selectedFilter === filter ? 'bg-black text-white active' : 'bg-gray-300'}
+          `}
+          onClick={() => handleClick(filter)}
+        >
+          {filter}
+        </button>
+      ))}
+    </div>
+  );
+};
+
+export default FilterBlock;
