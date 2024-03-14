@@ -1,5 +1,6 @@
 import React from 'react'
-import {  Inter } from 'next/font/google'
+import { Inter } from 'next/font/google'
+import { ArrowRight } from 'react-feather'
 
 export const interFont = Inter({ subsets: ["latin"] })
 
@@ -33,6 +34,11 @@ const HeroSlide = () => {
                 <div className='flex px-2 mt-4 '>
                     <img src='/sofa.png' className='rounded-2xl object-cover  md:h-[280px] h-[240px]  w-[360px] md:w-[700px]' />
                 </div>
+            </div>
+
+            <div className='lg:hidden bg-black mt-10 mx-auto text-white flex gap-2 py-4'>
+                <span className='pl-4'> Explore More </span>
+                <ArrowRight className='mr-4' />
             </div>
         </div>
     )
