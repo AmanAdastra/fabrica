@@ -12,7 +12,7 @@ const HeroSection = () => {
             <FilterSlide />
             <div className="h-[650px] w-[650px] rounded-full z-0 absolute top-[400px] blur-3xl  -right-[300px]"
                 style={{
-                    background: 'linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(221,108,217,1) 0%, rgba(237,237,237,0.9) 100%)'
+                    background: 'linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(221,134,217,1) 0%, rgba(237,237,237,0.9) 100%)'
                 }}></div>
 
             <ProductCards/>
