@@ -7,7 +7,7 @@ const HeroSlide = () => {
     return (
         <div className={'flex flex-wrap h-fit w-full xl:px-[120px] relative z-10'}>
             <div className=' h-fit w-full lg:w-1/2   '>
-                <div className=' lg:mt-[37px] h-fit lg:h-[480px] text-[36px] lg:text-[56px] text-center lg:text-start font-bold w-full '>
+                <div className=' lg:mt-[37px] h-fit lg:h-[480px] text-[36px] lg:text-[56px] text-center lg:text-start font-bold w-full px-2 '>
                     <p className=' '>
                         Discover the Latest
                     </p>
