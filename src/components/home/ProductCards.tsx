@@ -36,7 +36,7 @@ const ProductCard = (product: Products) => {
 
 const ProductCards = () => {
     return (
-        <div className='flex lg:w-full lg:h-full lg:flex-wrap mt-[80px] mx-5 xl:mx-[120px] overflow-scroll '>
+        <div className='flex lg:w-full lg:h-full lg:flex-wrap mt-[80px] z-10 relative mx-5 xl:mx-[120px] overflow-scroll '>
             <div className='flex lg:flex-wrap gap-5 '>
                 {products.map(product => (
                     <ProductCard key={product.id} name={product.name} price={product.price} image={product.image} />
