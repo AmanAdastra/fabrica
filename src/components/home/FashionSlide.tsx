@@ -9,7 +9,7 @@ const FashionSlide = () => {
                     <h1 className='font-bold text-[32px] inline-block] mt-10'>Enjoy Our Latest Fashion Trends and Style</h1>
                     <img src='StrokeLine.png' className='absolute lg:-top-[0.5rem] lg:-right-[6rem] -right-[30px] top-[2rem]' />
                 </div>
-                <p className='mt-[14px] text-[18px]'>
+                <p className='mt-[14px] text-[18px] '>
                     Ship our curated collection of fashion items and stay ahead of the fashion game
                 </p>
                 <div className='flex flex-wrap mt-10'>
