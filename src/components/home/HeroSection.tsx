@@ -4,6 +4,7 @@ import HeroSlide from './HeroSlide'
 import FilterSlide from './FilterSlide'
 import ProductCards from './ProductCards'
 import DiscoverTrends from './DiscoverTrends'
+import ArticleSlide from './ArticleSlide'
 
 const HeroSection = () => {
     return (
@@ -16,12 +17,15 @@ const HeroSection = () => {
                     background: 'linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(221,134,217,1) 0%, rgba(237,237,237,0.9) 100%)'
                 }}></div>
 
-            <ProductCards/>
-            <div className="h-[570px] w-[650px] rounded-full -z-5 absolute -left-[20rem] -bottom-[15rem]  blur-3xl "
-                style={{
-                    background: 'linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(221,134,217,1) 0%, rgba(237,237,237,0.9) 100%)'
-                }}></div>
-            <DiscoverTrends/>
+            <ProductCards />
+            <div className='relative'>
+                <div className="h-[570px] w-[650px] rounded-full -z-5 absolute -left-[20rem] -top-[10rem]  blur-3xl "
+                    style={{
+                        background: 'linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(221,134,217,1) 0%, rgba(237,237,237,0.9) 100%)'
+                    }}></div>
+            </div>
+            <DiscoverTrends />
+            <ArticleSlide />
         </div>
     )
 }
