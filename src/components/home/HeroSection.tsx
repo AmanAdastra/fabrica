@@ -5,6 +5,7 @@ import FilterSlide from './FilterSlide'
 import ProductCards from './ProductCards'
 import DiscoverTrends from './DiscoverTrends'
 import ArticleSlide from './ArticleSlide'
+import FashionSlide from './FashionSlide'
 
 const HeroSection = () => {
     return (
@@ -26,6 +27,7 @@ const HeroSection = () => {
             </div>
             <DiscoverTrends />
             <ArticleSlide />
+            <FashionSlide/>
         </div>
     )
 }
