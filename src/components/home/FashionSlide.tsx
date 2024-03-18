@@ -2,7 +2,7 @@ import React from 'react'
 
 const FashionSlide = () => {
     return (
-        <div className='flex flex-wrap  lg:w-full lg:h-[500px] lg:flex-wrap mt-[180px] z-10 relative mx-5 xl:px-[120px] ' >
+        <div className='flex flex-wrap  lg:w-full  lg:flex-wrap mt-[180px] z-10 relative mx-5 xl:px-[120px] mb-[10px]' >
             <div className='w-full lg:w-1/2 py-4 px-10'>
                 <img src='Quarter.png' />
                 <div className='relative inline-block'>
@@ -24,7 +24,7 @@ const FashionSlide = () => {
                 </div>
             </div>
             <div className='w-full lg:w-1/2'>
-                <img src='HeroImage1.png' className='rounded-3xl h-[600px] w-auto mx-auto z-10 mt-10 lg:mt-0 ' />
+                <img src='HeroImage1.png' className='rounded-3xl  w-auto mx-auto z-10 mt-10 lg:mt-0 ' />
                 <div className='relative'>
                     <div className="h-[570px] w-[650px] rounded-full -z-10 absolute -top-[48rem] lg:-top-[50rem] lg:-right-[100px]  blur-3xl "
                         style={{
