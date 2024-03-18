@@ -5,7 +5,7 @@ const FooterSection = () => {
     return (
         <>
             <div className='flex flex-wrap mt-[100px] px-[20px] lg:px-[120px]'>
-                <div className='px-20 lg:px-5 w-full  lg:mx-0  lg:w-1/2'>
+                <div className='px-4 lg:px-5 w-full  lg:mx-0  lg:w-1/2'>
                     <img src='fabricaLogo.png' className='block h-12 w-12' />
                     <p className='text-[14px] text-gray-500 mt-2'>
                         Join our newsletter to stay up to date on features and releases.
